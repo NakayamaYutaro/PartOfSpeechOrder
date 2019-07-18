@@ -1,0 +1,8 @@
+pdfminer.six
+reportlab
+python-docx
+matplotlib
+pydotplus
+numpy
+tox
+
