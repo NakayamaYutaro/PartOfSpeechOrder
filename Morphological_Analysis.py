@@ -1,15 +1,15 @@
-#-*- coding: utf-8 -*-
+#-*- coding: utf-8 -*イ-
 import sys
 import codecs
 import MeCab
 from WriteToTxt import write_to_txt 
 
 class mecab_analysis:
-    def __init__(self,self.num):
+    def __init__(self,self.num,f):
         #変数の初期化
         self.l = 0;self.m = 0;self.k = 0;self.cnt = 0;self.flag=0;
         #ファイルの行数をカウントする
-        row_num = len(open('777out.txt').readlines())
+        row_num = len(open(f).readlines())
         #曖昧文の品詞順サンプル    
         self.base = ["名詞","動詞","名詞","名詞","助詞","名詞","動詞","名詞","名詞","動詞"]
         #曖昧性判断材料の配列の準備       
