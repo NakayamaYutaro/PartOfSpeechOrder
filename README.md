@@ -1,0 +1,2 @@
+# Grasys
+PartOfSpeechOder
