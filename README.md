@@ -1,2 +1,2 @@
-# Grasys
+# PartOfSpeechOrder
 PartOfSpeechOder
